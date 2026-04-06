@@ -19,6 +19,18 @@ plt.plot(x,f(x))
 plt.show()
 
 
+h = np.array([[-1,2,1],[1,0,-1],[1,1,3]])
+p =np.array([[1,0,1],[1,1,0],[0,1,1]])
+
+h_inv = np.linalg.inv(h)
+
+print (h_inv)
+print (np.matmul(h,p))
+
+
+
+
+
 
 
 
